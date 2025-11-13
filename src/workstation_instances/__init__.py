@@ -1,0 +1,7 @@
+from workstation_instances.oven import oven_dry, oven_heat
+from workstation_instances.liquid_injection import liquid_injection
+from workstation_instances.solid_injection import solid_injection
+from workstation_instances.stirring import stirring
+from workstation_instances.storage_rack import storage_rack_ability
+from workstation_instances.decentralization import decentralization_with_liquid, decentralization_without_liquid
+from workstation_instances.material_station import material_station

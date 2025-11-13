@@ -26,3 +26,6 @@ class Workstation:
 
     def call_ability(self, ability_name: str, sample: Sample) -> Sample:
         return self.abilities[ability_name](sample)
+
+
+
